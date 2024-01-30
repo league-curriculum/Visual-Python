@@ -16,3 +16,6 @@ rsync -rva <downloaddir>/Trinket Course-introduction-to-python-programming-md/  
 
 Note that the directories in the rsync command bith have trailing slashes; 
 they are important!
+
+The ``course.yaml`` file is a nacent configuration; currenty it just lists the
+order of the directories for the online course. 
