@@ -1,11 +1,21 @@
+title: 'A Visual Introduction To Python'
 description: 'Trinket Demo Site'
+pages:
+  - index.md
+  - about.md
+  - intro.md
+resources:
+  - flag.png
+  - word-logo.png
+sidebar:
+  - path: /intro
+    title: Introduction
 lessons:
   welcome:
     assignments:
       - welcome/an-hour-of-code
     resources: [ ]
     text: welcome/welcome.md
-
   turtles:
     assignments:
       - turtles/meet-tina
@@ -19,7 +29,6 @@ lessons:
     resources: [ ]
     text:
       turtles/turtles.md
-
   repeating-with-loops-and-lists:
     assignments:
       - repeating-with-loops-and-lists/loops-of-lists
@@ -67,7 +76,4 @@ lessons:
     - you-did-it/share-your-progress
     resources: []
     text: you-did-it/you-did-it.md
-pages: []
-resources: []
-sidebar: []
-title: ''
+

@@ -1,5 +1,5 @@
 base: /Python-Intro-Trinket/
-description: ''
+description: Trinket Demo Site
 head:
 - - meta
   - content: '#F37121'
@@ -19,7 +19,7 @@ themeConfig:
   editLinkText: ''
   editLinks: false
   lastUpdated: false
-  logo: /assets/Flag.png
+  logo: /assets/flag.png
   nav:
   - link: /about/
     text: About
@@ -27,6 +27,8 @@ themeConfig:
     text: The LEAGUE
   repo: ''
   sidebar:
+  - path: /intro
+    title: Introduction
   - children:
     - path: /lessons/welcome/an-hour-of-code/
       title: An Hour Of Code
@@ -113,4 +115,4 @@ themeConfig:
     collapsable: false
     path: /lessons/you-did-it/
     title: You Did It
-title: ''
+title: A Visual Introduction To Python

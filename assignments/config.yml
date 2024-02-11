@@ -1,0 +1,27 @@
+base: /Python-Intro-Trinket/
+head:
+- - meta
+  - content: '#F37121'
+    name: theme-color
+- - meta
+  - content: true
+    name: apple-mobile-web-app-capable
+- - meta
+  - content: black
+    name: apple-mobile-web-app-status-bar-style
+plugins:
+- '@vuepress/plugin-back-to-top'
+- '@vuepress/plugin-medium-zoom'
+themeConfig:
+  displayAllHeaders: true
+  docsDir: ''
+  editLinkText: ''
+  editLinks: false
+  lastUpdated: false
+  logo: /assets/flag.png
+  nav:
+  - link: /about/
+    text: About
+  - link: https://jointheleague.org
+    text: The LEAGUE
+  repo: ''
