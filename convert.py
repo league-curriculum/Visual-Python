@@ -74,10 +74,17 @@ def convert(source_dir, dst_root):
         if not dest.exists():
             dest.mkdir(parents=True)
 
-        (dest.joinpath('trinket.md')).write_text(md)
+        ack = dedent("""
+        ---
+        
+        Thanks to Trinket.io for providing this assignment, 
+        part of their [Hour of Python](https://hourofpython.com/a-visual-introduction-to-python/) 
+        course.\n""").strip()
+
+        (dest.joinpath('trinket.md')).write_text(md+"\n\n"+ack)
 
         for k, v in code.items():
-            (dest.joinpath(k)).write_text(v)
+              (dest.joinpath(k)).write_text(v)
 
         title =  d.replace('-',' ').title()
         asgn = {'title': title, 'description':title}
@@ -90,9 +97,10 @@ def convert(source_dir, dst_root):
         lesson_title = str(p).replace('-',' ').title()
         lesson_text= dedent(f"""
         ---
-        title: {title}
-        ----
-        # {title}
+        title: {lesson_title}
+        ---
+        
+        # {lesson_title}
         
         """).strip()
 
@@ -108,7 +116,6 @@ def convert(source_dir, dst_root):
         'sidebar': [],
         'lessons': dict(lessons)
     }
-
 
     dst_root.joinpath('lesson-plan.yaml').write_text(yaml.dump(dict(plan)))
 
