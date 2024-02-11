@@ -1,8 +1,11 @@
+# Converts the original markdown for the course in `orig-source` into
+# lesson-builder formtted assignments
+
 from pathlib import Path
 import yaml
 from textwrap import dedent
 
-dst = Path(Path.cwd().joinpath('md-source-dst'))
+dst = Path(Path.cwd().joinpath('assignments'))
 
 if not dst.exists():
     # Create if it does not exist
@@ -120,6 +123,4 @@ def convert(source_dir, dst_root):
     dst_root.joinpath('lesson-plan.yaml').write_text(yaml.dump(dict(plan)))
 
 
-
-
-convert(Path.cwd().joinpath('md-source'), dst)
+convert(Path.cwd().joinpath('orig-source'), dst)
