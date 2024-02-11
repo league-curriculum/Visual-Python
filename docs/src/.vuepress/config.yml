@@ -1,0 +1,116 @@
+base: /Python-Intro-Trinket/
+description: ''
+head:
+- - meta
+  - content: '#F37121'
+    name: theme-color
+- - meta
+  - content: true
+    name: apple-mobile-web-app-capable
+- - meta
+  - content: black
+    name: apple-mobile-web-app-status-bar-style
+plugins:
+- '@vuepress/plugin-back-to-top'
+- '@vuepress/plugin-medium-zoom'
+themeConfig:
+  displayAllHeaders: true
+  docsDir: ''
+  editLinkText: ''
+  editLinks: false
+  lastUpdated: false
+  logo: /assets/Flag.png
+  nav:
+  - link: /about/
+    text: About
+  - link: https://jointheleague.org
+    text: The LEAGUE
+  repo: ''
+  sidebar:
+  - children:
+    - path: /lessons/welcome/an-hour-of-code/
+      title: An Hour Of Code
+    collapsable: false
+    path: /lessons/welcome/
+    title: Welcome
+  - children:
+    - path: /lessons/turtles/meet-tina/
+      title: Meet Tina
+    - path: /lessons/turtles/moving/
+      title: Moving
+    - path: /lessons/turtles/color/
+      title: Color
+    - path: /lessons/turtles/saying-hello/
+      title: Saying Hello
+    - path: /lessons/turtles/tinas-pen/
+      title: Tinas Pen
+    - path: /lessons/turtles/going-in-circles/
+      title: Going In Circles
+    - path: /lessons/turtles/shapes-and-colors/
+      title: Shapes And Colors
+    - path: /lessons/turtles/tinas-grid/
+      title: Tinas Grid
+    collapsable: false
+    path: /lessons/turtles/
+    title: Turtles
+  - children:
+    - path: /lessons/repeating-with-loops-and-lists/loops-of-lists/
+      title: Loops Of Lists
+    - path: /lessons/repeating-with-loops-and-lists/lists/
+      title: Lists
+    - path: /lessons/repeating-with-loops-and-lists/changing-colors/
+      title: Changing Colors
+    - path: /lessons/repeating-with-loops-and-lists/lists-of-numbers/
+      title: Lists Of Numbers
+    collapsable: false
+    path: /lessons/repeating-with-loops-and-lists/
+    title: Repeating With Loops And Lists
+  - children:
+    - path: /lessons/multiple-turtles/tina-and-tommys-colors/
+      title: Tina And Tommys Colors
+    - path: /lessons/multiple-turtles/turtles-are-objects/
+      title: Turtles Are Objects
+    collapsable: false
+    path: /lessons/multiple-turtles/
+    title: Multiple Turtles
+  - children:
+    - path: /lessons/if-else-statements/logical-turtles/
+      title: Logical Turtles
+    - path: /lessons/if-else-statements/how-high-up-is-tina/
+      title: How High Up Is Tina
+    - path: /lessons/if-else-statements/tina-asks-how-old-you-are/
+      title: Tina Asks How Old You Are
+    collapsable: false
+    path: /lessons/if-else-statements/
+    title: If Else Statements
+  - children:
+    - path: /lessons/functions/functions-are-recipes/
+      title: Functions Are Recipes
+    - path: /lessons/functions/make-5-cakes/
+      title: Make 5 Cakes
+    - path: /lessons/functions/say-hello/
+      title: Say Hello
+    collapsable: false
+    path: /lessons/functions/
+    title: Functions
+  - children:
+    - path: /lessons/put-it-all-together/count-to-100/
+      title: Count To 100
+    - path: /lessons/put-it-all-together/a-picture-with-tina-and-tommy/
+      title: A Picture With Tina And Tommy
+    - path: /lessons/put-it-all-together/write-a-poem/
+      title: Write A Poem
+    - path: /lessons/put-it-all-together/pick-an-open-ended-exercise/
+      title: Pick An Open Ended Exercise
+    collapsable: false
+    path: /lessons/put-it-all-together/
+    title: Put It All Together
+  - children:
+    - path: /lessons/you-did-it/acknowledgements/
+      title: Acknowledgements
+    - path: /lessons/you-did-it/share-your-progress/
+      title: Share Your Progress
+    collapsable: false
+    path: /lessons/you-did-it/
+    title: You Did It
+title: ''

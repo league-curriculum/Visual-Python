@@ -1,0 +1,116 @@
+base: /Python-Intro-Trinket/
+description: ''
+head:
+- - meta
+  - content: '#F37121'
+    name: theme-color
+- - meta
+  - content: true
+    name: apple-mobile-web-app-capable
+- - meta
+  - content: black
+    name: apple-mobile-web-app-status-bar-style
+plugins:
+- '@vuepress/plugin-back-to-top'
+- '@vuepress/plugin-medium-zoom'
+themeConfig:
+  displayAllHeaders: true
+  docsDir: ''
+  editLinkText: ''
+  editLinks: false
+  lastUpdated: false
+  logo: /assets/Flag.png
+  nav:
+  - link: /about/
+    text: About
+  - link: https://jointheleague.org
+    text: The LEAGUE
+  repo: ''
+  sidebar:
+  - children:
+    - path: /lessons/say-hello/functions-are-recipes/
+      title: Functions Are Recipes
+    - path: /lessons/say-hello/make-5-cakes/
+      title: Make 5 Cakes
+    - path: /lessons/say-hello/say-hello/
+      title: Say Hello
+    collapsable: false
+    path: /lessons/say-hello/
+    title: Say Hello
+  - children:
+    - path: /lessons/tina-asks-how-old-you-are/logical-turtles/
+      title: Logical Turtles
+    - path: /lessons/tina-asks-how-old-you-are/how-high-up-is-tina/
+      title: How High Up Is Tina
+    - path: /lessons/tina-asks-how-old-you-are/tina-asks-how-old-you-are/
+      title: Tina Asks How Old You Are
+    collapsable: false
+    path: /lessons/tina-asks-how-old-you-are/
+    title: Tina Asks How Old You Are
+  - children:
+    - path: /lessons/turtles-are-objects/tina-and-tommys-colors/
+      title: Tina And Tommys Colors
+    - path: /lessons/turtles-are-objects/turtles-are-objects/
+      title: Turtles Are Objects
+    collapsable: false
+    path: /lessons/turtles-are-objects/
+    title: Turtles Are Objects
+  - children:
+    - path: /lessons/pick-an-open-ended-exercise/count-to-100/
+      title: Count To 100
+    - path: /lessons/pick-an-open-ended-exercise/a-picture-with-tina-and-tommy/
+      title: A Picture With Tina And Tommy
+    - path: /lessons/pick-an-open-ended-exercise/write-a-poem/
+      title: Write A Poem
+    - path: /lessons/pick-an-open-ended-exercise/pick-an-open-ended-exercise/
+      title: Pick An Open Ended Exercise
+    collapsable: false
+    path: /lessons/pick-an-open-ended-exercise/
+    title: Pick An Open Ended Exercise
+  - children:
+    - path: /lessons/lists-of-numbers/loops-of-lists/
+      title: Loops Of Lists
+    - path: /lessons/lists-of-numbers/lists/
+      title: Lists
+    - path: /lessons/lists-of-numbers/changing-colors/
+      title: Changing Colors
+    - path: /lessons/lists-of-numbers/lists-of-numbers/
+      title: Lists Of Numbers
+    collapsable: false
+    path: /lessons/lists-of-numbers/
+    title: Lists Of Numbers
+  - children:
+    - path: /lessons/tinas-grid/meet-tina/
+      title: Meet Tina
+    - path: /lessons/tinas-grid/moving/
+      title: Moving
+    - path: /lessons/tinas-grid/color/
+      title: Color
+    - path: /lessons/tinas-grid/saying-hello/
+      title: Saying Hello
+    - path: /lessons/tinas-grid/tinas-pen/
+      title: Tinas Pen
+    - path: /lessons/tinas-grid/going-in-circles/
+      title: Going In Circles
+    - path: /lessons/tinas-grid/shapes-and-colors/
+      title: Shapes And Colors
+    - path: /lessons/tinas-grid/tinas-grid/
+      title: Tinas Grid
+    collapsable: false
+    path: /lessons/tinas-grid/
+    title: Tinas Grid
+  - children:
+    - path: /lessons/an-hour-of-code/an-hour-of-code/
+      title: An Hour Of Code
+    collapsable: false
+    path: /lessons/an-hour-of-code/
+    title: An Hour Of Code
+  - children:
+    - path: /lessons/share-your-progress/acknowledgements/
+      title: Acknowledgements
+    - path: /lessons/share-your-progress/share-your-progress/
+      title: Share Your Progress
+    collapsable: false
+    path: /lessons/share-your-progress/
+    title: Share Your Progress
+title: ''
