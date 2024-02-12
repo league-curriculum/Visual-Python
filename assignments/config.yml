@@ -1,4 +1,4 @@
-base: /Python-Intro-Trinket/
+base: /Visual-Python/
 head:
 - - meta
   - content: '#F37121'

@@ -1,5 +1,58 @@
-description: ''
+title: 'A Visual Introduction To Python'
+description: 'Trinket Demo Site'
+pages:
+  - index.md
+  - about.md
+  - intro.md
+resources:
+  - flag.png
+  - word-logo.png
+sidebar:
+  - path: /intro
+    title: Introduction
 lessons:
+  welcome:
+    assignments:
+      - welcome/an-hour-of-code
+    resources: [ ]
+    text: welcome/welcome.md
+  turtles:
+    assignments:
+      - turtles/meet-tina
+      - turtles/moving
+      - turtles/color
+      - turtles/saying-hello
+      - turtles/tinas-pen
+      - turtles/going-in-circles
+      - turtles/shapes-and-colors
+      - turtles/tinas-grid
+    resources: [ ]
+    text:
+      turtles/turtles.md
+  repeating-with-loops-and-lists:
+    assignments:
+      - repeating-with-loops-and-lists/loops-of-lists
+      - repeating-with-loops-and-lists/lists
+      - repeating-with-loops-and-lists/changing-colors
+      - repeating-with-loops-and-lists/lists-of-numbers
+    resources: [ ]
+    text: repeating-with-loops-and-lists/repeating-with-loops-and-lists.md
+
+  multiple-turtles:
+    assignments:
+      - multiple-turtles/tina-and-tommys-colors
+      - multiple-turtles/turtles-are-objects
+    resources: [ ]
+    text: multiple-turtles/multiple-turtles.md
+
+  if-else-statements:
+    assignments:
+      - if-else-statements/logical-turtles
+      - if-else-statements/how-high-up-is-tina
+      - if-else-statements/tina-asks-how-old-you-are
+    resources: [ ]
+    text: if-else-statements/if-else-statements.md
+
   functions:
     assignments:
     - functions/functions-are-recipes
@@ -7,59 +60,19 @@ lessons:
     - functions/say-hello
     resources: []
     text: functions/functions.md
-  if-else-statements:
-    assignments:
-    - if-else-statements/logical-turtles
-    - if-else-statements/how-high-up-is-tina
-    - if-else-statements/tina-asks-how-old-you-are
-    resources: []
-    text: if-else-statements/if-else-statements.md
-  multiple-turtles:
-    assignments:
-    - multiple-turtles/tina-and-tommys-colors
-    - multiple-turtles/turtles-are-objects
-    resources: []
-    text: multiple-turtles/multiple-turtles.md
+
   put-it-all-together:
     assignments:
-    - put-it-all-together/count-to-100
     - put-it-all-together/a-picture-with-tina-and-tommy
     - put-it-all-together/write-a-poem
     - put-it-all-together/pick-an-open-ended-exercise
     resources: []
     text: put-it-all-together/put-it-all-together.md
-  repeating-with-loops-and-lists:
-    assignments:
-    - repeating-with-loops-and-lists/loops-of-lists
-    - repeating-with-loops-and-lists/lists
-    - repeating-with-loops-and-lists/changing-colors
-    - repeating-with-loops-and-lists/lists-of-numbers
-    resources: []
-    text: repeating-with-loops-and-lists/repeating-with-loops-and-lists.md
-  turtles:
-    assignments:
-    - turtles/meet-tina
-    - turtles/moving
-    - turtles/color
-    - turtles/saying-hello
-    - turtles/tinas-pen
-    - turtles/going-in-circles
-    - turtles/shapes-and-colors
-    - turtles/tinas-grid
-    resources: []
-    text: turtles/turtles.md
-  welcome:
-    assignments:
-    - welcome/an-hour-of-code
-    resources: []
-    text: welcome/welcome.md
+
   you-did-it:
     assignments:
     - you-did-it/acknowledgements
     - you-did-it/share-your-progress
     resources: []
     text: you-did-it/you-did-it.md
-pages: []
-resources: []
-sidebar: []
-title: ''
+
