@@ -13,11 +13,7 @@ to the [lesson-builder](https://github.com/league-infrastructure/lesson-builder.
 conversion can be views with the vuepress configuration in the `docs` doreictory, or
 to the Github Pages deployment at:
 
-    
-
-
 ## Setup for Development
-
 
 
 Install the lesson-builder programs
@@ -25,7 +21,7 @@ Install the lesson-builder programs
 ```bash 
 python -mvenv .venv
 source .venv/bin/activate
-pip install git+https://github.com/league-infrastructure/lesson-builder.git#egg=lesson-builder
+pip install git+https://github.com/league-infrastructure/lesson-builder.git
 ```
 
 Install vuepress, [see these instructions for details](https://vuepress.vuejs.org/guide/getting-started.html). In this example, we will be using `yarn` rather than `npm` to install vuepress.

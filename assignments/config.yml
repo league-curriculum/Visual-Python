@@ -25,3 +25,5 @@ themeConfig:
   - link: https://jointheleague.org
     text: The LEAGUE
   repo: ''
+markdown:
+  lineNumbers: true
